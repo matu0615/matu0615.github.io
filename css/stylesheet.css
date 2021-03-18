@@ -1,0 +1,123 @@
+*{
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+header{
+    height: 1000px;
+    width: 100%;
+    background-image: url("../images/image1.jpg");
+    color: white;
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+header::before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    right: 2px;
+    left: 2px;
+    background: inherit;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.header-content{
+    padding-top: 421.5px;
+}
+
+h1{
+    font-size: 100px;
+    letter-spacing: 3px;
+    margin: 0 0;
+}
+
+.header-content a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.a{
+    padding-right: 30px;
+}
+
+.main{
+    height: auto;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    padding: 50px 0;
+}
+
+h2{
+    text-align: center;
+    color: rgb(30, 30, 30);
+    font-size: 40px;
+    margin: 0 0;
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.s{
+    padding-left: 8em;
+}
+
+.bold{
+    width: 8em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.main-about{
+    height: auto;
+    width: 95%;
+    background-color: white;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    padding: 50px 0;
+}
+
+.about-content{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.main-portfolio{
+    height: 300px;
+    width: 95%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    scroll-behavior: smooth;
+    padding: 50px 0;
+}
+
+.main-works{
+    height: 300px;
+    width: 95%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    scroll-behavior: smooth;
+    padding: 50px 0;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 31.5px;
+}
+
+footer a{
+    font-size: 30px;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
